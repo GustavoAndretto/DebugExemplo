@@ -19,7 +19,6 @@ public class Principal {
 			a = leitura.nextFloat();
 			System.out.println("Insira o 2o valor");
 			b = leitura.nextFloat();
-
 			resultado = c.calcular(a, b, operador.charAt(0));
 			System.out.printf("O resultado de %.2f %s %.2f é: %.2f\n", a, operador, b, resultado);
 		}
